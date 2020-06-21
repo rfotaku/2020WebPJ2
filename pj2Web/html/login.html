@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!-- Now it is the page of login -->
+    <meta charset="UTF-8">
+    <title>用户登陆</title>
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="../js/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+    <script src="../js/jquery-validation-1.14.0/dist/additional-methods.js"></script>
+    <script src="../js/login.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="../css/login.css" />
+</head>
+<body>
+<div id="background">
+    <div class="blank"></div>
+    <div id="container">
+        <form action="../../pj2Server/php/login.php" method="post" id="login_form">
+        <h1 id="title">用户登陆</h1>
+        <p>
+            <label for="username">用户名/邮箱</label>
+            <input type="text" id="username" name="username">
+        </p>
+        <p>
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password">
+        </p>
+        <input type="submit" id="button" value="登陆">
+        <p>还没有账号？<a href="./register.html">马上注册</a></p>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,137 @@
+nav{
+    background-color: #7A4D1D;
+    height:40px;
+}
+#navList{
+    line-height: 40px;
+    font-size:20px;
+}
+a.navItem{
+    display:block;
+    width:100px;
+    text-decoration: none;
+    text-align: center;
+}
+.navItem:link,.navItem:visited{
+    color:white;
+}
+.navItem{
+    float:left;
+}
+.usrItem{
+    float:right;
+    color:white;
+}
+
+.navItem:hover,.navItem:active{
+    background-color: #39C5BB;
+}
+#this,#this:hover,#this:active{
+    background-color: #216353;
+}
+a.usrItem{
+    display: block;
+    width:100px;
+    text-decoration: none;
+    text-align: center;
+}
+.usrItem:link,.usrItem:visited{
+    color:white;
+}
+.usrItem:hover,.usrItem:active{
+    background-color: #39C5BB;
+}
+.usrItem:hover #usrMenu{
+    display:block;
+}
+#usrMenu{
+    display: none;
+    position: absolute;
+    top:40px;
+    background-color: #7A4D1D;
+    line-height: 40px;
+    font-size:15px;
+}
+a.menuItem{
+    display: block;
+    width:100px;
+    text-decoration: none;
+}
+.menuItem:link,.menuItem:visited{
+    color:white;
+}
+.menuItem:hover,.menuItem:active{
+    background-color: #39C5BB;
+}
+.icon{
+    float:left;
+    position:relative;
+    top:10px;
+    left:5px;
+}
+.opt{
+    text-align: center;
+    position: relative;
+    left:15px;
+}
+#background{
+    background-image:url("../background/mountain.jpg");
+    background-size: cover;
+}
+.blank{
+    height:180px;
+}
+#main{
+    width:60%;
+    margin:0 auto 0 auto;
+    padding:20px;
+    background-color: white;
+    border-radius: 15px;
+}
+#uploadBox{
+    position: absolute;
+    margin:0 auto 40px auto;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size:30px;
+    margin:10px;
+    letter-spacing:10px;
+}
+#uploadIcon{
+    width:200px;
+    height:200px;
+    margin:0 auto;
+}
+#choose{
+    position: absolute;
+    opacity: 0;
+    width:100px;
+}
+label{
+    display: inline-block;
+    width:150px;
+    text-align: right;
+}
+p{
+    line-height: 40px;
+}
+#pic_form{
+    text-align: center;
+}
+button{
+    width:20%;
+    height:60px;
+    margin:10px auto;
+    font-size:30px;
+    border-radius:15px;
+    border:none;
+}
+.foot{
+    text-align: center;
+    line-height: 20px;
+    font-size:10px;
+    background-color: #7A4D1D;
+    color: white;
+}
